@@ -25,6 +25,10 @@ jobs:
           github_user_name: enesfurkansaglam   # Kullanıcı adınızı belirtin
           outputs: dist/snake.svg             # Animasyon çıktısını dist klasörüne oluşturur
 
+      - name: Change background color to black
+        run: |
+          sed -i 's/fill="white"/fill="black"/g' dist/snake.svg
+
       - name: Push generated snake.svg to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
