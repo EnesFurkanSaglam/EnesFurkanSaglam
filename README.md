@@ -1,10 +1,5 @@
 <h2 align="left">Hi 👋! My name is Enes</h2>
 
-###
-
-<img align="right" height="148" src="https://image.fanatik.com.tr/i/fanatik/75/1200x675/65c7d256f159eb740460ae24.jpg"  />
-
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
